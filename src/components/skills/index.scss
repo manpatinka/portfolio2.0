@@ -1,0 +1,80 @@
+$blue-color: #083b6e;
+$green-color: #086d66;
+$pink-color: #b90e75;
+$background-color: #edeceb;
+$grey-color: #575766a9;
+$grey-text: #575766;
+
+@keyframes skills-animation {
+    0% {
+        font-size: 50px;
+        color: #17ff2b;
+    }
+    100% {
+        font-size: 40px;
+        color: #083b6ed9;
+    }
+}
+
+
+.skills-list {
+    display: inline-flex;
+    list-style: none;
+    min-width: 10px;
+
+    .skill {
+        display: block;
+        font-size: 40px;
+        margin-left: 40px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    #first {
+        animation: skills-animation 1s forwards;
+        animation-delay: 2.5s; 
+        
+        :hover {
+            color: #b90e75;
+        }
+    }
+
+    #second {
+        animation: skills-animation 1s forwards;
+        animation-delay: 3s;
+
+        :hover {
+            color: #b90e75;
+        }
+    }
+
+    #third {
+        animation: skills-animation 1s forwards;
+        animation-delay: 3.5s;
+
+        :hover {
+            color: #b90e75;
+        }
+    }
+
+    #fourth {
+        animation: skills-animation 1s forwards;
+        animation-delay: 4s;
+
+        :hover {
+            color: #b90e75;
+        }
+    }
+
+    #fifth {
+        animation: skills-animation 1s forwards;
+        animation-delay: 4.5s;
+
+        :hover {
+            color: #b90e75;
+        }
+    }
+
+}
