@@ -11,7 +11,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_8piv1rb', 'template_kwaswvr', form.current, '6ijRi64rg6PKmmfm9')
+        emailjs.sendForm('service_id', 'template_id', form.current, 'token')
         .then(
             () => {
               alert('Message successfully sent!')
