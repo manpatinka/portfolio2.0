@@ -1,80 +1,73 @@
-$blue-color: #083b6e;
+$blue-color: #083b6ed9;
 $green-color: #086d66;
 $pink-color: #b90e75;
-$background-color: #edeceb;
-$grey-color: #575766a9;
-$grey-text: #575766;
+$grey-color: #575766;
+$accent: #17ff2b;
 
 @keyframes skills-animation {
     0% {
-        font-size: 50px;
-        color: #17ff2b;
+        font-size: 42px;
+        color: #{$accent};
     }
+
     100% {
-        font-size: 40px;
-        color: #083b6ed9;
+        font-size: 45px;
+        color: #{$blue-color};
     }
 }
 
 
 .skills-list {
+    position: absolute;
+    top: 10%;
+    right: 140px;
     display: inline-flex;
+    flex-direction: column;
+    font-size: 45px;
     list-style: none;
     min-width: 10px;
 
     .skill {
         display: block;
-        font-size: 40px;
-        margin-left: 40px;
+        margin-bottom: 40px;
+        color: #{$grey-color};
+        animation: skills-animation 1.5s forwards;
+        animation-delay: 0.5s;
+    }
 
-        &:hover {
+    #react,
+    #node-icon,
+    #js,
+    #git,
+    #css,
+    #html {
+        :hover {
             cursor: pointer;
+            color: #{$pink-color};
         }
     }
 
-    #first {
-        animation: skills-animation 1s forwards;
-        animation-delay: 2.5s; 
-        
-        :hover {
-            color: #b90e75;
-        }
+
+    #html {
+        animation-delay: 3.1s;
     }
 
-    #second {
-        animation: skills-animation 1s forwards;
-        animation-delay: 3s;
-
-        :hover {
-            color: #b90e75;
-        }
+    #css {
+        animation-delay: 3.6s;
     }
 
-    #third {
-        animation: skills-animation 1s forwards;
-        animation-delay: 3.5s;
-
-        :hover {
-            color: #b90e75;
-        }
+    #react {
+        animation-delay: 4.1s;
     }
 
-    #fourth {
-        animation: skills-animation 1s forwards;
-        animation-delay: 4s;
-
-        :hover {
-            color: #b90e75;
-        }
+    #js{
+        animation-delay: 4.6s;
     }
 
-    #fifth {
-        animation: skills-animation 1s forwards;
-        animation-delay: 4.5s;
-
-        :hover {
-            color: #b90e75;
-        }
+    #git{
+        animation-delay: 5.1s;
     }
+
+
 
 }

@@ -1,3 +1,9 @@
+$blue-color: #083b6e;
+$green-color: #086d66;
+$pink-color: #b90e75;
+$grey-color: #575766;
+$accent: #17ff2b;
+
 @keyframes background-animation {
   0% {
     background-image: url('../../assets/images/background.png')
@@ -14,7 +20,7 @@
 body {
   background-repeat: repeat-y;
   background-position: right 100px;
-  background-size: 180px auto;
+  background-size: 120px auto;
   animation: background-animation 2s forwards;
   animation-delay: 1.2s;
 }
@@ -55,7 +61,7 @@ nav {
     a {
       font-family: 'Montserrat Alternates', sans-serif;
       font-size: 22px;
-      color: #575766;
+      color: #{$grey-color};
       display: block;
       line-height: 70px;
       height: 70px;
@@ -67,7 +73,7 @@ nav {
       }
 
       &:hover {
-        color: #083b6e;
+        color: #fff;
         font-weight: 600;
 
         svg {
@@ -115,7 +121,7 @@ nav {
 
     a.active {
       svg {
-        color: #086d66;
+        color: #{$green-color};
       }
     }
   }
