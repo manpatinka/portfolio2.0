@@ -1,0 +1,66 @@
+$blue-color: #083b6e;
+$green-color: #086d66;
+$pink-color: #b90e75;
+$grey-color: #575766;
+$accent: #17ff2b;
+
+
+.project-container {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #57576656;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.895);
+
+    &:hover {
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .image-container {
+        overflow: hidden;
+        width: 350px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+        left: -25px;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .info {
+        margin-top: 25px;
+
+        .title {
+            font-size: 14px;
+            margin: 5px auto;
+        }
+
+        .links {
+            font-size: 16px;
+            font-weight: 600;
+
+            .link, .githubrepo {
+                text-decoration: none;
+                color: #{$blue-color};
+
+                &:hover {
+                    color: #{$pink-color};
+                }
+            }
+
+            .link {
+                text-transform: uppercase;
+            }
+
+            .githubrepo {
+                margin-left: 5px;
+            }
+        }
+    }
+}
