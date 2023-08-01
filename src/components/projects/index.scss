@@ -8,16 +8,16 @@ $accent: #17ff2b;
 .projects-page {
     width: calc(100% - 100px);
     margin-left: 100px;
+    margin-top: 2%;
     height: 100%;
 
     h2 {
-        font-size: 32px;
+        font-size: 50px;
         color: #{$grey-color};
-        margin-top: 1%;
-        margin-bottom: -1%;
+        margin-bottom: 2%;
         margin-left: 45%;
         opacity: 0;
-        animation: fadeInLeft 2s 1s;
+        animation: fadeInDown 2s 1s;
         animation-fill-mode: forwards;
 
     }
