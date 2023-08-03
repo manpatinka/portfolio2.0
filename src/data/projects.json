@@ -31,6 +31,38 @@
             "tools": "HTML, CSS",
             "link": "https://manpatinka.github.io/praguesdogs/",
             "githubrepo": "https://github.com/manpatinka/praguesdogs"
+        },
+        {
+            "id": "5",
+            "screenshot": "screenshots/i-am-furious1.png",
+            "name": "I Am Furious",
+            "tools": "React, Redux",
+            "link": "https://i-am-furious.netlify.app/",
+            "githubrepo": "https://github.com/manpatinka/i-am-furios"
+        },
+        {
+            "id": "6",
+            "screenshot": "screenshots/to-do-list1.png",
+            "name": "To Do App",
+            "tools": "React",
+            "link": "https://www.google.com/",
+            "githubrepo": "https://github.com/manpatinka/to-do-list"
+        },
+        {
+            "id": "7",
+            "screenshot": "screenshots/PORTFOLIO.png",
+            "name": "Portfolio",
+            "tools": "JavaScript, HTML, CSS",
+            "link": "https://manpatinka.github.io/portfolio/",
+            "githubrepo": "https://github.com/manpatinka/portfolio"
+        },
+        {
+            "id": "8",
+            "screenshot": "screenshots/praguesdogs.png",
+            "name": "Prague's Dogs",
+            "tools": "HTML, CSS",
+            "link": "https://manpatinka.github.io/praguesdogs/",
+            "githubrepo": "https://github.com/manpatinka/praguesdogs"
         }
         
     ]
