@@ -11,8 +11,8 @@ const Project = ({ screenshot, name, tools, link, githubrepo }) => {
             </div>
             <div className="info">
               <h3 className='title'>{name}</h3>
-              <p className="links"><Link to={link} className='link'>Live</Link> || 
-               <Link to={githubrepo} className='githubrepo'>GitHub Repository</Link>
+              <p className="links"><Link to={link} target='_blank' className='link'>Live</Link> || 
+               <Link to={githubrepo} target='_blank' className='githubrepo'>GitHub Repository</Link>
            </p>
                </div>
           </div>
