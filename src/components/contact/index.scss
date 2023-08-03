@@ -6,6 +6,7 @@ $accent: #17ff2b;
 
 .contact-container {
     margin-left: 110px;
+    margin-top: -650px;
 
     h1 {
         font-size: 60px;
@@ -65,7 +66,7 @@ $accent: #17ff2b;
 
 .right-side {
     margin-top: -6%;
-    margin-left: -2%;
+    margin-left: 2%;
 
     p {
         font-size: 22px;
@@ -99,7 +100,7 @@ $accent: #17ff2b;
             clear: none;
 
             &:first-child {
-                width: 47%;
+                width: 49%;
                 margin-left: 0;
             }
         }
