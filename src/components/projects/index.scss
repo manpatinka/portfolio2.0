@@ -30,3 +30,27 @@ $accent: #17ff2b;
     flex-wrap: wrap;
     gap: 15px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .projects-page {
+        text-align: center;
+
+
+        h2 {
+            margin-left: 5%;
+            font-size: 32px;
+        }
+
+        .projects-container {
+            justify-content: center;
+        }
+    }
+}
+
+@media (orientation: portrait) {
+    .projects-page {
+        margin-top: -1000px;
+        margin-left: 80px;
+    }
+    
+}

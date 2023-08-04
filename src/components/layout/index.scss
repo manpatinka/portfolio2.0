@@ -12,3 +12,10 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
+
+
+@media (orientation: portrait) {
+   .container {
+    top: 0;
+   }
+  }

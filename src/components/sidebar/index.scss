@@ -125,4 +125,14 @@ nav {
     }
   }
 
+  @media only screen and (max-width: 800px) {
+    body {
+      animation: none;
+    }
+  }
   
+  @media (orientation: portrait) {
+    .nav-bar {
+      min-height: 1000px;
+    }
+  }

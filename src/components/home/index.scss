@@ -130,3 +130,66 @@ $accent: #17ff2b;
     }
 
 }
+
+@media only screen and (max-width: 1000px) {
+    .home-page {
+        height: 50%;
+        h1 {
+            font-size: 40px;
+            line-height: 41px;
+            margin-top: 40px;
+
+            .initial {
+                font-size: 35px;
+                animation: none;
+            }
+    
+            #y {
+                margin-right: -2px;
+            }
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+
+        h4 {
+            width: 120%;
+        }
+
+        .services {
+            width: 100%;
+
+            li {
+                font-size: 18px;
+
+                &:hover {
+                    font-size: 20px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+  .profile-pic {
+    display: none;
+}
+}
+
+@media (orientation: portrait) {
+    .home-page {
+        margin-left: 3%;
+        .text-zone {
+            margin-top: 10%;
+            width: 44%;
+
+            #y::before {
+                content: "\a";
+            }
+           
+        }
+    }
+   }

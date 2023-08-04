@@ -16,6 +16,18 @@ $accent: #17ff2b;
     }
 }
 
+@keyframes skills-animation-mobile {
+    0% {
+        font-size: 34px;
+        color: #{$accent};
+    }
+
+    100% {
+        font-size: 36px;
+        color: #{$blue-color};
+    }
+}
+
 
 .skills-list {
     position: absolute;
@@ -60,14 +72,35 @@ $accent: #17ff2b;
         animation-delay: 4.1s;
     }
 
-    #js{
+    #js {
         animation-delay: 4.6s;
     }
 
-    #git{
+    #git {
         animation-delay: 5.1s;
     }
 
 
 
+}
+
+@media only screen and (max-width: 800px) {
+    .skills-list {
+        opacity: 0;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .skills-list {
+        flex-direction: row;
+        transform: translateY(-90%);
+        font-size: 36px;
+
+        .skill {
+            margin-left: 20px;
+            animation: skills-animation-mobile 1.5s forwards;
+            animation-delay: 0.7s;
+            ;
+        }
+    }
 }
