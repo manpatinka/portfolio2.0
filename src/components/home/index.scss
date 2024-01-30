@@ -52,9 +52,9 @@ $accent: #17ff2b;
         left: 12%;
         top: 55%;
         transform: translateY(-50%);
-        width: 55%;
+        width: 70%;
         max-height: 90%;
-        color: #{$grey-color};
+        
     }
 
     h1 {
@@ -86,30 +86,13 @@ $accent: #17ff2b;
     }
 
     h4 {
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 23px;
+        font-weight: 500;
         color: black;
         line-height: 30px;
-        width: 80%;
+        width: 100%;
     }
 
-    .right-side {
-        display: flex;
-        width: 50%;
-        margin-left: 50%;
-        margin-top: 1%;
-    }
-
-    .profile-pic {
-        transform: translate(20%, 50%);
-
-        img {
-            width: 45%;
-
-        }
-
-
-    }
 
     .services {
         transform: translateX(-5%);
@@ -117,14 +100,14 @@ $accent: #17ff2b;
 
         li {
             list-style: none;
-            font-size: 20px;
+            font-size: 25px;
             color: black;
             animation: pulse 1s both;
             animation-delay: 1.5s;
 
             &:hover {
                 cursor: pointer;
-                font-size: 22px;
+                font-size: 26px;
             }
         }
     }

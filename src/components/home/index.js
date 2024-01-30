@@ -13,6 +13,10 @@ const Home = () => {
     window.open(Certification);
   }
 
+  const profilePic = <div className="profile-pic">
+    <img src={Profile} alt="profile picture" />
+  </div>
+
   return (
     <>
       <div className="container home-page">
@@ -39,10 +43,6 @@ const Home = () => {
         </div>
 
         <div className="right-side">
-          <div className="profile-pic">
-            <img src={Profile} alt="profile picture" />
-          </div>
-
           <Skills />
         </div>
 
